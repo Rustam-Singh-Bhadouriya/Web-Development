@@ -1,0 +1,39 @@
+/* div{
+    background-color: red;
+} */
+
+.red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+div > p{
+    background-color: brown;
+    color: blue;
+}
+
+/* this will not work */
+
+/* div > p >h1{
+    color: gray;
+    background-color: blue;
+} */
+
+div h1{
+    color: blueviolet;
+    background-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+a:hover {
+    background-color: rgba(0, 0, 255, 0);
+    color: rgb(16, 101, 239);
+}
+a:active{
+    background-color: brown;
+}

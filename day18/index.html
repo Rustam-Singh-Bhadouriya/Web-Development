@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18 : Box properties</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aqua;
+
+        }
+        .box1{
+            color:red;
+            padding: 2px;
+            margin: 10px;
+            border: 10px solid blue;
+            box-sizing: border-box;
+        }
+        .box1:hover{
+            color: green;
+            background-color: aquamarine;
+            box-shadow: rgb(0, 0, 0);
+        }
+        .box2{
+            color:yellow;
+            padding: 2px;
+            margin: 25px;
+            border: 10px solid rgb(0, 0, 0);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+   <div class="box box1">this is box</div>
+   <div class="box box2">This is another box</div>
+   <script src="script.js"></script>
+</body>
+</html>
