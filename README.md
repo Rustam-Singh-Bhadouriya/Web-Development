@@ -29,8 +29,8 @@
      - data type
       and much more
 
-`` bash
-  https://nodejs.org/en/download
+``bash
+https://nodejs.org/en/download
 ``
 
 # You can go to youtube for learn more
