@@ -1,5 +1,5 @@
-# Web-Development
-## Contains HTML CSS best foundation and Basics JavaScripts
+# Web-Development 🐦‍🔥
+## Contains HTML CSS best foundation and Basics JavaScripts 😏
 
 ### Topic Coverd - 
   ## HTML : 
@@ -19,3 +19,19 @@
     - background and other designing
     - image integration
      and much more
+
+  ## JavaScript :
+     - basics
+     - if else
+     - loop
+     - functions
+     - DOM (basics)
+     - data type
+      and much more
+
+`` bash
+  https://nodejs.org/en/download
+``
+
+# You can go to youtube for learn more
+
