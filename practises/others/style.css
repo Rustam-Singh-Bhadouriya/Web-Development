@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+    text-align: center;
+    /* display: inline-block; */
+    justify-content: center;
+}
+
+#text{
+    color: black;
+    width: 70vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(224, 243, 237,1);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px red , -2px -2px 5px blue;
+}
+
+#text:hover{
+    color: gold;
+    background-color: beige;
+}
+
+.circle{
+    height: 26vh;
+    width: 26vh;
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(118, 168, 218, 0.836);
+    border: 2px solid black;
+    
+    border-radius: 50%;
+    margin-bottom:79px ;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+.circle:hover{
+    box-shadow: 2px 2px 20px 4px rgb(255, 0, 0);
+    text-shadow: 0 0 2px rgb(255, 200, 2) , -2px -2px 3px blue , 2px 2px 5px red;
+    color: gold;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.sqare{
+    width: 26vh;
+    height: 26vh;
+    margin: auto;
+    margin-top:20px;
+    background-color: rgba(118, 168, 218, 0.836);;
+    border: 2px solid black;
+    box-shadow: 2px 2px 19px red , -2px -2px 19px blue;
+    border-radius: 9px;
+}
+
+.sqare:hover{
+    box-shadow: 2px 2px 19px 4px red , -2px -2px 19px 4px blue;
+    font-weight: 800;
+    color: gold;
+    text-shadow: 0 0 2px rgb(255, 200, 2) , -2px -2px 3px rgb(4, 2, 88) , 2px 2px 5px red;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+
+.main{
+    background-color: bisque;
+    height: 70vh;
+    min-width: 70vw;
+    min-height: 70vh;
+    width: 70vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 2px lightskyblue;
+    /* transition: 0.3s rotate; */
+}
+
+.main:hover{
+    box-shadow: 0 0 25px 2px rgb(249, 77, 8);
+    border-radius: 20px;
+    transform: rotate(-6deg);
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+  /* display: flex; */
+  /* display:block; */
+}
+
+.sqare {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px;
+  font-weight: 800;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 5px 6px 7px 8px rgba(32, 27, 27, 0.664);
+}
+
+.rectangle {
+  background-color: blue;
+  box-shadow: 5px 6px 7px 8px rgba(32, 27, 27, 0.664);
+  height: 200px;
+  width: 300px;
+  margin: 25px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  text-align: center;
+  font-weight: 800;
+}
+
+.circle {
+  background-color: blue;
+  height: 200px;
+  box-shadow: 5px 6px 7px 8px rgba(32, 27, 27, 0.664);
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 25px;
+  border-radius: 50%;
+  font-weight: 800;
+}
+
+.cylender {
+  background-color: blue;
+  height: 470px;
+  width: 200px;
+  display: inline-block;
+  margin: 25px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 5px 6px 7px 8px rgba(32, 27, 27, 0.664);
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+/* .circle_low {
+  background-color: blue;
+    height: 40vh;
+    width: 40vw;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50%;
+    margin: 50px;
+
+} */
+
+.text{
+    color: black;
+    border: 2px solid black;
+    height: 3vh;
+    width: 80vw;
+    background-color: rgb(187, 187, 236);
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

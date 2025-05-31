@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    /* background: #2a1717; */
+    /* background-color: black; */
+    background-image: url(
+        /photo/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2880x1800-1455.jpg
+    );
+    color: rgb(211, 68, 68);
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 82vw;
+    background-color: rgba(18, 15, 15, 0.708);
+    height:25px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-top: 3px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+
+.nav ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.nav ul a:hover{
+    color: lightblue;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 50vw;
+    margin: auto;
+    margin-top: 100px;
+    min-width: 50vw;
+    min-height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.main h2{
+    display: flex;
+    color: gold;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.main p{
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    margin: auto;
+    border: 3px solid rgba(0, 0, 0, 0);
+    width: 40vw;
+    background-color: rgba(0, 0, 255, 0);
+    gap: 10px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;   
+    margin-top: 180px;
+    height: 25px;
+    box-sizing: border-box;
+
+}
+
+.footer h3{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    box-sizing: border-box;
+}
+
+.footer p{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    margin-top: 3px;
+    box-sizing: border-box;
+    text-decoration: underline;
+}
